@@ -1,23 +1,26 @@
 import "./TopBar.css";
+import logo from "../assets/img/abstract-logo.png"
 
 export function TopBar() {
   return (
     <div className="topbar">
-
+        
         <div className="topbar-info">
-          <a className="abstract-info" href="https://www.goabstract.com/">
+          <img src={logo} style={{ maxWidth: "25px"}} alt="Corp Logo"></img>
+          <a className="abstract-info go-to" href="https://www.goabstract.com/">
             Abstract &nbsp;
           </a>
           <a
-            className="abstract-info"
+            className="abstract-info help"
             href="https://help.abstract.com/hc/en-us"
           >
             |&nbsp;&nbsp;Help Center
           </a>
         </div>
+
         <div className="topbar-btns">
-          <button className="submit-btn">Submit a request</button>
-          <button className="sign-btn">Sign in</button>
+          <button className="topbar-btn submit-btn">Submit a request</button>
+          <button className="topbar-btn sign-btn">Sign in</button>
         </div>
 
     </div>
