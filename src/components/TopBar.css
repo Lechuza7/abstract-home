@@ -1,0 +1,40 @@
+.topbar {
+  display: flex;
+  background-color: #000000;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 60px;
+  font-weight: 300;
+}
+
+.topbar-info {
+  text-decoration: none;
+  font-family: 'GT America Standard';
+  
+}
+
+.abstract-info {
+  text-decoration: none;
+  color: white;
+}
+
+.submit-btn {
+  background-color: #000000;
+  color: white;
+  border: solid white  1px;
+  border-radius: 4px;
+  font-size: 15px;
+  margin: 0.4rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.sign-btn {
+  background-color: #4C5FD5;
+  color: white;
+  border: solid #4C5FD5  1px;
+  border-radius: 4px;
+  font-size: 15px;
+  margin: 0.4rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
