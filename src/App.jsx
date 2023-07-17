@@ -1,4 +1,5 @@
 import './App.css'
+import { SearchBar } from './components/SearchBar'
 import { TopBar } from './components/TopBar'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <TopBar />
+      <SearchBar />
     </>
   )
 }
