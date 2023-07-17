@@ -9,7 +9,10 @@
 }
 
 .topbar-info {
-  text-decoration: none; 
+  text-decoration: none;
+  width: 20%; 
+  display: flex;
+  justify-content: flex-end;
 }
 
 .abstract-info {
@@ -23,6 +26,13 @@
 
 .help:hover {
   text-decoration: underline;
+}
+
+.topbar-btns {
+  text-decoration: none;
+  width: 25%; 
+  display: flex;
+  justify-content: flex-start;
 }
 
 .submit-btn {
@@ -44,7 +54,7 @@
   font-size: 15px;
   font-family: 'GT America Standard', serif;
   margin: 0.4rem;
-  padding: 0.5rem 1rem 0.4rem 1rem;
+  padding: 0.4rem 1rem 0.4rem 1rem;
 }
 
 .sign-btn:hover {
