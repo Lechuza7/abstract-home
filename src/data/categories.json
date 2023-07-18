@@ -1,0 +1,32 @@
+[
+  {
+    "img": "https://res.cloudinary.com/dyl3cklgp/image/upload/v1689700696/abtract-home/using-icon_ejlzmc.png",
+    "title": "Using Abstract",
+    "description": "Abstract lets you manage, version, and document your designs in one place."
+  },
+  {
+    "img": "https://res.cloudinary.com/dyl3cklgp/image/upload/v1689700696/abtract-home/account-icon_mgyzrv.png",
+    "title": "Manage your account",
+    "description": "Configure your account settings, such as your email, profile details, and password."
+  },
+  {
+    "img": "https://res.cloudinary.com/dyl3cklgp/image/upload/v1689700696/abtract-home/teams-icon_okjitc.png",
+    "title": "Manage organizations, teams, and projects",
+    "description": "Use Abstract organizations, teams, and projects to organize your people and your work."
+  },
+  {
+    "img": "https://res.cloudinary.com/dyl3cklgp/image/upload/v1689700695/abtract-home/billing-icon_y7vhog.png",
+    "title": "Manage billing",
+    "description": "Change subscriptions and payment details."
+  },
+  {
+    "img": "https://res.cloudinary.com/dyl3cklgp/image/upload/v1689700697/abtract-home/auth-icon_gtskse.png",
+    "title": "Authenticate to Abstract",
+    "description": "Set up and configure SSO, SCIM, and Just-in-Time provisioning."
+  },
+  {
+    "img": "https://res.cloudinary.com/dyl3cklgp/image/upload/v1689700696/abtract-home/support-icon_benyaq.png",
+    "title": "Abstract support",
+    "description": "Get in touch with a human."
+  }
+]
