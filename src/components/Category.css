@@ -1,0 +1,31 @@
+.category-item {
+  display: flex;
+  flex-direction: row;
+  padding-left: 2rem;
+  margin-bottom: 3rem;
+}
+
+.category-item img {
+  display: flex;
+  align-items: center;
+  width: 4rem;
+  height: 3.5rem;
+  margin-right: 0.7rem;
+}
+
+.category-item h6 {
+  font-weight: bold;
+}
+
+.category-item p {
+  text-align: justify;
+  margin-bottom: 0.2rem;
+}
+
+.category-link {
+  justify-content: center;
+  text-decoration: none;
+  color: #4C5FD5;
+  font-size: 14px;
+  font-weight: 600;
+}

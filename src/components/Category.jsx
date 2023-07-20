@@ -1,13 +1,15 @@
 import "./Category.css"
 
-export function Category ({ img, title, description }) {
+export default function Category ({ img, title, description }) {
 
   return (
     <div className="category-item">
       <img src={img}></img>
-      <h4>{title}</h4>
+      <div>
+      <h6>{title}</h6>
       <p>{description}</p>
-      <a></a>
+      <a className="category-link">Learn More →</a>
+      </div>
     </div>
   )
 }
