@@ -1,0 +1,27 @@
+.footer-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: black;
+  padding: 2rem 4rem 2rem 4rem;
+}
+
+.footer-container div {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  color: #fff;
+}
+
+.footer-container h6 {
+  font-weight: 600;
+}
+
+.footer-container a {
+  font-size: 12px;
+  text-decoration: none;
+  color:#fff
+}
+
+.footer-container a:hover {
+  text-decoration: underline;
+}

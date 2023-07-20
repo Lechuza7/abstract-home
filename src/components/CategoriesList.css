@@ -1,5 +1,5 @@
 .categories-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 7.8rem;
+  padding: 7.8rem 7.8rem 2.5rem 7.8rem;
 }
