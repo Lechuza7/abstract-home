@@ -29,3 +29,8 @@
   font-size: 14px;
   font-weight: 600;
 }
+
+.category-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
