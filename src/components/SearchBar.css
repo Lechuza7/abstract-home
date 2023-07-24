@@ -25,3 +25,28 @@
   border: 0.5px solid blue;
   outline: none;
 }
+
+@media only screen and (max-width: 425px) {
+  .search-section {
+    height: 265px;
+  }
+  
+  .search-section h1 {
+    font-size: 42px;
+  }
+  
+  .search-section input {
+    width: 21rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+  }
+  
+  .search-section input:hover {
+    border: 0.5px solid blue;
+  }
+  
+  .search-section input:focus {
+    border: 0.5px solid blue;
+    outline: none;
+  }
+}

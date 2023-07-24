@@ -62,21 +62,27 @@
   color: black;
 }
 
-/* @media screen and (max-width: 425px) {
+@media only screen and (max-width: 425px) {
 
   .topbar {
-    height: 80px;
+    height: 100px;
   }
 
   .topbar-info {
-    text-decoration: none;
-    font-family: 'GT America Standard';
-    font-size: 14px;
+    width: 40%; 
+    font-size: 0.75rem;
+    align-items: center;
+    justify-content: center;
   }
   
   .abstract-info {
     text-decoration: none;
     color: white;
+  }
+
+  .topbar-btns {
+    width: 45%; 
+    justify-content: center;
   }
 
   .submit-btn {
@@ -90,4 +96,4 @@
     margin: 0.2rem;
     padding: 0.3rem 0.5rem 0.3rem 0.5rem;
   }
-} */
+} 

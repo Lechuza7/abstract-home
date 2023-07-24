@@ -34,3 +34,19 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+@media only screen and (max-width: 425px) {
+  .category-item {
+    padding-left: 0rem;
+  }
+
+  .category-item img {
+    width: 4rem;
+    height: 3.5rem;
+    margin-right: 1rem;
+  }
+
+  .category-item p {
+    margin-bottom: 0.2rem;
+  }
+}
