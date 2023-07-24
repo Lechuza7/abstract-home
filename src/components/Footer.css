@@ -25,3 +25,14 @@
 .footer-container a:hover {
   text-decoration: underline;
 }
+
+.footer-container p {
+  text-decoration: none;
+  color:#fff;
+  margin-bottom: 0px;
+}
+
+.copyright-info {
+  display: flex;
+  justify-content: end;
+}
